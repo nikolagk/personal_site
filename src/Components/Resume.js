@@ -17,13 +17,20 @@ class Resume extends Component {
     const skillmessage = this.props.data.skillmessage;
     const education = this.props.data.education.map(function (education) {
       return (
+        
         <div key={education.school}>
+          <img
+                className="university-image"
+                src={"images/" + education.image}
+                alt="Something here"
+              />
           <h3>{education.school}</h3>
           <p className="info">
             {education.degree} <span>&bull;</span>
             <em className="date">{education.graduated}</em>
           </p>
           <p>{education.description}</p>
+          
         </div>
       );
     });
@@ -31,6 +38,11 @@ class Resume extends Component {
     const work = this.props.data.work.map(function (work) {
       return (
         <div key={work.company}>
+              <img
+                className="work-image"
+                src={"images/" + work.image}
+                alt="Something here"
+              />
           <h3>{work.company}</h3>
           <p className="info">
             {work.title}

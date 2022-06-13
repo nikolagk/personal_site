@@ -77,7 +77,12 @@ header .banner-text hr {
    border-color: #2F2D2E;
    border-color: rgba(150, 150, 150, .1);
 }
-
+header .profile-pic {
+   position: relative;
+   width: 350px;
+   height: 350px;
+   border-radius: 100%;
+}
 /* header social links */
 header .social {
    margin: 24px 0;
@@ -200,15 +205,9 @@ ul#nav li.current a { color: #fe6928; }
    line-height: 30px;
    color: #ccc;
 }
-#about .profile-pic {
-   position: relative;
-   width: 120px;
-   height: 120px;
-   border-radius: 100%;
-}
 #about .contact-details { width: 41.66667%; }
 #about .download {
-   width: 58.33333%;
+   width: 30%;
    padding-top: 6px;
 }
 #about .main-col { padding-right: 5%; }
@@ -222,7 +221,7 @@ ul#nav li.current a { color: #fe6928; }
 }
 #about .download .button i {
    margin-right: 15px;
-   font-size: 20px;
+   font-size: 15px;
 }
 
 
@@ -260,6 +259,18 @@ ul#nav li.current a { color: #fe6928; }
    margin-bottom: 48px;
    padding-bottom: 24px;
    border-bottom: 1px solid #E8E8E8;
+}
+.education .university-image {
+   position: relative;
+   width: 75px;
+   height: 75px;
+   border-radius: 10%;
+}
+.work .work-image {
+   position: relative;
+   width:   75px;
+   height: 75px;
+   border-radius: 10%;
 }
 #resume .info {
    font: 16px/24px 'librebaskerville-italic', serif;
@@ -1021,4 +1032,5 @@ footer .social-links li:first-child { margin-left: 0; }
 }
 .github-btn{
    background-color: #34495e !important;
+   
 }
