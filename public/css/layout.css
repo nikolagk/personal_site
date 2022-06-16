@@ -79,8 +79,8 @@ header .banner-text hr {
 }
 header .profile-pic {
    position: relative;
-   width: 30%;
-   height: 30%;
+   width: 50%;
+   height: 50%;
    border-radius: 100%;
 }
 /* header social links */
