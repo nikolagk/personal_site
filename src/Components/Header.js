@@ -52,7 +52,7 @@ class Header extends Component {
               <img
                 className="profile-pic"
                 src={profilepic}
-                alt="Nordic Giant Profile Pic"
+                alt="Profile Pic"
               />
             </Fade>
             <Fade bottom duration={1200}>

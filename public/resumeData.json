@@ -23,7 +23,7 @@
     "education": [
       {
         "school": "University of Michigan, Ann-Arbor",
-        "degree": "Bachelors in Science, Computer Science",
+        "degree": "Bachelors of Science, Computer Science",
         "graduated": "May 2021",
         "description": "Ask me about ApeSearch, my distributed search engine from scratch in C++.",
         "image": "umich.jpeg"
